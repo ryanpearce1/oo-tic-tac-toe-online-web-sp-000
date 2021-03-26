@@ -89,7 +89,7 @@ def won?
     end
   }
   
-  else return false
+  return false
 end
 
 
