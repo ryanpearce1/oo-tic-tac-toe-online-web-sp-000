@@ -101,7 +101,6 @@ def full?
     end
   end
   return return_value
-  end
 end
 
 
@@ -116,6 +115,7 @@ def draw?
       return true
     end
   end
+
 
   def winner
     if won?
