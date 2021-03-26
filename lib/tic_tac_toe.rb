@@ -78,9 +78,9 @@ def won?
     index1 = win_combo[1]
     index2 = win_combo[3]
 
-    position1 = @board[index1]
-    position2 = @board[index2]
-    position3 = @board[index3]
+    position1 = @board[index0]
+    position2 = @board[index1]
+    position3 = @board[index2]
 
     if position1 == "X" && position2 == "X" && position3 == "X"
       return win_combo
