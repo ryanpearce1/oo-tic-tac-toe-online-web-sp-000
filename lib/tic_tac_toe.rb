@@ -94,13 +94,7 @@ end
 
 
 def full?
-  return_value = true
-  @board.each do |index|
-    if (index.nil? || index == " ")
-      return_value false
-    end
-  end
-  return return_value
+  @board.all?{|index| index == "X" || index == "O"}
 end
 
 
